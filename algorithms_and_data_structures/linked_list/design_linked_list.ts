@@ -52,6 +52,11 @@ class MyLinkedList {
 
   deleteAtIndex(index: number): void {
     if (index < 0 || index >= this.count) return;
+    if (index === 0) {
+      this.head = this.head?.next;
+      this.count--;
+      return;
+    }
 
     const prev = this.getNode(index - 1);
     const next = prev?.next?.next ?? this.getNode(index)?.next;
