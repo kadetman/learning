@@ -1,3 +1,3 @@
-import { testLinkedList } from './algorithms_and_data_structures/linked_list/design_linked_list';
+import { testCycle } from './algorithms_and_data_structures/linked_list/linked_list_cycle';
 
-testLinkedList();
+testCycle();
