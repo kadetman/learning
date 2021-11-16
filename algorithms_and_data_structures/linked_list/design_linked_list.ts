@@ -1,19 +1,17 @@
-declare interface MyLinkedListNode {
-  val: number;
-  next: MyLinkedListNode | null;
-}
+import { ILinkedList, ILinkedListNode } from './model';
+import { log, printList } from './utils';
 
-class MyLinkedList {
-  private head: MyLinkedListNode | null = null;
+class MyLinkedList implements ILinkedList {
+  private head: ILinkedListNode | null = null;
   private count = 0;
 
   constructor() {}
 
-  private getNode(index: number): MyLinkedListNode | null {
+  private getNode(index: number): ILinkedListNode | null {
     if (index < 0 || index >= this.count) return null;
     if (index === 0) return this.head;
 
-    let node: MyLinkedListNode | null = this.head;
+    let node: ILinkedListNode | null = this.head;
     let i = 0;
 
     while ((node = node?.next) && ++i < index) {}
@@ -67,18 +65,6 @@ class MyLinkedList {
 }
 
 export function testLinkedList() {
-  const log = (...args) => console.log.apply(console, args);
-
-  function printList(list: MyLinkedList) {
-    let i = 0;
-    let val = -1;
-    const values = [];
-
-    while ((val = list.get(i++)) >= 0) values.push(val);
-
-    log(`list: [${values.join(', ')}]`);
-  }
-
   const list = new MyLinkedList();
   printList(list);
   log('get(0): ', list.get(0));
