@@ -1,6 +1,7 @@
 import { ILinkedListNode } from './model';
 import { log } from './utils';
 
+// https://leetcode.com/explore/learn/card/linked-list/214/two-pointer-technique/1214/
 function detectCycle(head: ILinkedListNode | null): ILinkedListNode | null {
   if (!head?.next) return null;
 

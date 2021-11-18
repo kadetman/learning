@@ -1,6 +1,7 @@
 import { ILinkedList, ILinkedListNode } from './model';
 import { log, printList } from './utils';
 
+// https://leetcode.com/explore/learn/card/linked-list/209/singly-linked-list/1290/
 class MyLinkedList implements ILinkedList {
   private head: ILinkedListNode | null = null;
   private count = 0;
