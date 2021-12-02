@@ -1,5 +1,6 @@
 import { log } from '../../linked_list/utils';
 
+// https://www.educative.io/courses/grokking-the-coding-interview/JPKr0kqLGNP
 function maxSubArrayOfSizeK(arr: number[], k: number): number {
   let sum = 0,
     maxSum = 0,
