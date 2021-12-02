@@ -1,3 +1,3 @@
-import { testDeletion } from './algorithms_and_data_structures/linked_list/delete_nth_from_end';
+import { testMaxSum } from './algorithms_and_data_structures/patterns/sliding_window/max_sub_array_of_size_k';
 
-testDeletion();
+testMaxSum();
