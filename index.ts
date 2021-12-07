@@ -1,3 +1,3 @@
-import { testMaxSum } from './algorithms_and_data_structures/patterns/sliding_window/max_sub_array_of_size_k';
+import { testSmallestSubarray } from './algorithms_and_data_structures/patterns/sliding_window/smallest_subarray_with_given_sum';
 
-testMaxSum();
+testSmallestSubarray();
