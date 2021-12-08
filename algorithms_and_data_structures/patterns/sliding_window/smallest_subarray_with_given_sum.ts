@@ -1,5 +1,6 @@
 import { log } from '../../linked_list/utils';
 
+// https://www.educative.io/courses/grokking-the-coding-interview/7XMlMEQPnnQ
 function smallestSubarrayWithGivenSum(s: number, arr: number[]): number {
   let sum = 0,
     start = 0,

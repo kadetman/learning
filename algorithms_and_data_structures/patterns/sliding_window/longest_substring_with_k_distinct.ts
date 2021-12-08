@@ -10,17 +10,15 @@ function longestSubstringWithKDistinct(str: string, k: number): number {
     const count = countByChar.get(char) || 0;
     countByChar.set(char, count + 1);
 
-    if (countByChar.size > k) {
-      maxLength = Math.max(maxLength, end - start);
-
-      while (countByChar.size > k) {
-        const startChar = str[start];
-        const startCount = countByChar.get(startChar);
-        if (startCount === 1) countByChar.delete(startChar);
-        else countByChar.set(startChar, startCount - 1);
-        start++;
-      }
+    while (countByChar.size > k) {
+      const startChar = str[start];
+      const startCount = countByChar.get(startChar);
+      if (startCount === 1) countByChar.delete(startChar);
+      else countByChar.set(startChar, startCount - 1);
+      start++;
     }
+
+    maxLength = Math.max(maxLength, end - start + 1);
   }
 
   return maxLength;
@@ -28,4 +26,6 @@ function longestSubstringWithKDistinct(str: string, k: number): number {
 
 export function testLongestSubstr() {
   log('Expected 7, got: ', longestSubstringWithKDistinct('aaaaabcde', 3));
+  log('Expected 8, got: ', longestSubstringWithKDistinct('abcdeeeeee', 3));
+  log('Expected 9, got: ', longestSubstringWithKDistinct('aaaaabcde', 5));
 }
