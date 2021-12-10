@@ -1,6 +1,8 @@
 import { log } from '../../linked_list/utils';
 
 // https://www.educative.io/courses/grokking-the-coding-interview/YQQwQMWLx80
+// https://www.educative.io/courses/grokking-the-coding-interview/Bn2KLlOR0lQ - fruits in the basket,
+// the same algo with k = 2.
 function longestSubstringWithKDistinct(str: string, k: number): number {
   let countByChar: Map<string, number> = new Map();
   let maxLength = 0;
