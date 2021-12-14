@@ -1,3 +1,3 @@
-import { testNonRepeatSubstring } from './algorithms_and_data_structures/patterns/sliding_window/non_repeat_substring';
+import { testLongestSubstr } from './algorithms_and_data_structures/patterns/sliding_window/longest_substring_with_k_replaced';
 
-testNonRepeatSubstring();
+testLongestSubstr();
