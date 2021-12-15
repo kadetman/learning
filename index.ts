@@ -1,3 +1,3 @@
-import { testLongestSubarray } from './algorithms_and_data_structures/patterns/sliding_window/longest_subarray_with_ones';
+import { testPermutation } from './algorithms_and_data_structures/patterns/sliding_window/pattern_permutation_in_string';
 
-testLongestSubarray();
+testPermutation();
