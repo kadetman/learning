@@ -1,3 +1,3 @@
-import { testAnagrams } from './algorithms_and_data_structures/patterns/sliding_window/find_string_anagrams';
+import { testSmallestSubstring } from './algorithms_and_data_structures/patterns/sliding_window/smallest_substring_with_pattern';
 
-testAnagrams();
+testSmallestSubstring();
