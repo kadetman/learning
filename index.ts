@@ -1,3 +1,3 @@
-import { testConcatinatedWords } from './algorithms_and_data_structures/patterns/sliding_window/concatinated_words_substrings';
+import { testPairWithSum } from './algorithms_and_data_structures/patterns/two_pointers/pair_with_target_sum';
 
-testConcatinatedWords();
+testPairWithSum();
