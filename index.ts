@@ -1,3 +1,3 @@
-import { testElements } from './algorithms_and_data_structures/patterns/two_pointers/remove_elements';
+import { testSquares } from './algorithms_and_data_structures/patterns/two_pointers/square_sorted_array';
 
-testElements();
+testSquares();
