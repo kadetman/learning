@@ -1,3 +1,3 @@
-import { testSquares } from './algorithms_and_data_structures/patterns/two_pointers/square_sorted_array';
+import { testTriplets } from './algorithms_and_data_structures/patterns/two_pointers/triplet_sum_to_zero';
 
-testSquares();
+testTriplets();
