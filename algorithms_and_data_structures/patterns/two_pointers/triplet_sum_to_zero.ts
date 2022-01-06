@@ -5,12 +5,14 @@ type Triplet = [number, number, number];
 // https://www.educative.io/courses/grokking-the-coding-interview/gxk639mrr5r
 function findTripletSumToZero(arr: number[]): Triplet[] {
   const triplets: Triplet[] = [];
-  arr.sort();
+  arr.sort((a, b) => a - b);
 
   for (let i = 0; i < arr.length - 1; i++) {
-    const value = arr[i];
-    findPairWithSum(arr, -value, i + 1, triplets);
-    while (arr[i] === value) i++;
+    if (i > 0 && arr[i] === arr[i - 1]) {
+      // skip same element to avoid duplicate triplets
+      continue;
+    }
+    findPairWithSum(arr, -arr[i], i + 1, triplets);
   }
 
   return triplets;
@@ -30,12 +32,12 @@ function findPairWithSum(
     let pairSum = leftValue + rightValue;
     if (pairSum === sum) {
       triplets.push([-sum, leftValue, rightValue]);
-      while (arr[left] === leftValue) left++;
-      while (arr[right] === rightValue) right--;
+      while (left < right && arr[left] === leftValue) left++;
+      while (left < right && arr[right] === rightValue) right--;
     } else if (pairSum > sum) {
-      while (arr[right] === rightValue) right--;
+      right--;
     } else {
-      while (arr[left] === leftValue) left++;
+      left++;
     }
   }
 }
