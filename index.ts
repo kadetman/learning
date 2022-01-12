@@ -1,3 +1,3 @@
-import { testSubarrays } from './algorithms_and_data_structures/patterns/two_pointers/subarrays_product_less_than_target';
+import { testArray } from './algorithms_and_data_structures/patterns/two_pointers/sort_array_with_0s_1s_2s';
 
-testSubarrays();
+testArray();
