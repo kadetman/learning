@@ -1,3 +1,3 @@
-import { testStrings } from './algorithms_and_data_structures/patterns/two_pointers/compare_strings_with_backspaces';
+import { testSubarray } from './algorithms_and_data_structures/patterns/two_pointers/minimum_subarray_sort';
 
-testStrings();
+testSubarray();
