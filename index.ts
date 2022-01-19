@@ -1,3 +1,3 @@
-import { testSubarray } from './algorithms_and_data_structures/patterns/two_pointers/minimum_subarray_sort';
+import { testCycle } from './algorithms_and_data_structures/patterns/fast_slow_pointers/linked_list_cycle';
 
-testSubarray();
+testCycle();
