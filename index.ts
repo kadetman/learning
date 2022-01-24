@@ -1,3 +1,3 @@
-import { testMiddle } from './algorithms_and_data_structures/patterns/fast_slow_pointers/linked_list_middle';
+import { testPalindrome } from './algorithms_and_data_structures/patterns/fast_slow_pointers/linked_list_palindrome';
 
-testMiddle();
+testPalindrome();
