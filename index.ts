@@ -1,3 +1,3 @@
-import { testPalindrome } from './algorithms_and_data_structures/patterns/fast_slow_pointers/linked_list_palindrome';
+import { testRearrange } from './algorithms_and_data_structures/patterns/fast_slow_pointers/rearrange_linked_list';
 
-testPalindrome();
+testRearrange();
