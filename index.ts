@@ -1,3 +1,3 @@
-import { testRearrange } from './algorithms_and_data_structures/patterns/fast_slow_pointers/rearrange_linked_list';
+import { testCycle } from './algorithms_and_data_structures/patterns/fast_slow_pointers/cycle_in_circular_array';
 
-testRearrange();
+testCycle();
