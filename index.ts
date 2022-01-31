@@ -1,3 +1,3 @@
-import { testInsert } from './algorithms_and_data_structures/patterns/merge_intervals/insert_interval';
+import { testIntersection } from './algorithms_and_data_structures/patterns/merge_intervals/intervals_intersection';
 
-testInsert();
+testIntersection();
