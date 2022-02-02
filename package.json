@@ -2,5 +2,7 @@
   "name": "learning",
   "version": "0.0.0",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "collections": "^5.1.13"
+  }
 }
