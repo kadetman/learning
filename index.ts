@@ -1,3 +1,3 @@
-import { testMinRooms } from './algorithms_and_data_structures/patterns/merge_intervals/min_meeting_rooms';
+import { testMaxCpuLoad } from './algorithms_and_data_structures/patterns/merge_intervals/max_cpu_load';
 
-testMinRooms();
+testMaxCpuLoad();

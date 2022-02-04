@@ -5,7 +5,7 @@ import { log } from '../../linked_list/utils';
 // https://www.educative.io/courses/grokking-the-coding-interview/JQMAmrVPL7l
 function getMinRooms(arr: Interval[]): number {
   let minRooms = 0;
-  const minHeap = new Heap([], null, ([end1], [end2]) => end2 - end1);
+  const minHeap = new Heap([], null, ([,end1], [,end2]) => end2 - end1);
   arr.sort(([start1], [start2]) => start1 - start2);
 
   for (let i = 0; i < arr.length; i++) {
