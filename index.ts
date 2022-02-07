@@ -1,3 +1,3 @@
-import { testMaxCpuLoad } from './algorithms_and_data_structures/patterns/merge_intervals/max_cpu_load';
+import { testEmployeesFreeTime } from './algorithms_and_data_structures/patterns/merge_intervals/employees_free_time';
 
-testMaxCpuLoad();
+testEmployeesFreeTime();
