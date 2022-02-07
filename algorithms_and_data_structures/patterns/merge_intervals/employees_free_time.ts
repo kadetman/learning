@@ -12,7 +12,10 @@ function getEmployeesFreeTime(arr: Array<Interval[]>): Interval[] {
       tmp.push(intervals[j]);
     }
   }
-  tmp.sort((a, b) => a[0] - b[0]);
+  tmp.sort((a, b) => {
+    const diff = a[0] - b[0];
+    return diff === 0 ? a[1] - b[1] : diff;
+  });
 
   for (let i = 1; i < tmp.length; i++) {
     const [, end] = tmp[i - 1];
@@ -62,6 +65,21 @@ export function testEmployeesFreeTime() {
         [
           [3, 5],
           [7, 9],
+        ],
+      ])
+    )
+  );
+  log(
+    'Expected [[6,7]], got: ',
+    JSON.stringify(
+      getEmployeesFreeTime([
+        [
+          [1, 6],
+          [5, 6],
+        ],
+        [
+          [1, 3],
+          [7, 8],
         ],
       ])
     )
