@@ -19,10 +19,10 @@ function findAllMissingNumbers(arr: number[]): number[] {
 
 export function testMissingNumbers() {
   log('Expected [], got: ', findAllMissingNumbers([]));
-  // log(
-  //   'Expected [4, 6, 7], got: ',
-  //   findAllMissingNumbers([2, 3, 1, 8, 2, 3, 5, 1])
-  // );
-  // log('Expected [3], got: ', findAllMissingNumbers([2, 4, 1, 2]));
-  // log('Expected [4], got: ', findAllMissingNumbers([2, 3, 2, 1]));
+  log(
+    'Expected [4, 6, 7], got: ',
+    findAllMissingNumbers([2, 3, 1, 8, 2, 3, 5, 1])
+  );
+  log('Expected [3], got: ', findAllMissingNumbers([2, 4, 1, 2]));
+  log('Expected [4], got: ', findAllMissingNumbers([2, 3, 2, 1]));
 }
