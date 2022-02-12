@@ -1,3 +1,3 @@
-import { testMissingNumber } from './algorithms_and_data_structures/patterns/cyclic_sort/find_missing_number';
+import { testMissingNumbers } from './algorithms_and_data_structures/patterns/cyclic_sort/find_all_missing_numbers';
 
-testMissingNumber();
+testMissingNumbers();
