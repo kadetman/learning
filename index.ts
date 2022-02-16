@@ -1,3 +1,3 @@
-import { testCorruptedPair } from './algorithms_and_data_structures/patterns/cyclic_sort/find_corrupted_pair';
+import { testMissingNumber } from './algorithms_and_data_structures/patterns/cyclic_sort/find_first_smallest_missing_number';
 
-testCorruptedPair();
+testMissingNumber();
