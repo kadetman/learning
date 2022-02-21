@@ -1,3 +1,3 @@
-import { testMissingNumbers } from './algorithms_and_data_structures/patterns/cyclic_sort/find_first_k_missing_numbers';
+import { testReversal } from './algorithms_and_data_structures/patterns/linked_list_reversal/reverse_linked_list';
 
-testMissingNumbers();
+testReversal();
