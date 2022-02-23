@@ -23,6 +23,7 @@ function reverseSublists(head: ILinkedListNode, k: number): ILinkedListNode {
     // previous points to sublist head after reversal.
     if (previousSublistTail) previousSublistTail.next = previous;
     if (currentSublistTail === head) head = previous;
+    previous = null;
 
     if (!current) break;
 
@@ -46,4 +47,9 @@ export function testSublistsReversal() {
     'Expected [3, 2, 1, 6, 5, 4, 8, 7], got: ',
     getListItemsString(reverseSublists(head, 3))
   );
+
+  const head2: ILinkedListNode = { val: 1, next: null };
+  head2.next = { val: 2, next: null };
+
+  log('Expected [2, 1], got: ', getListItemsString(reverseSublists(head2, 3)));
 }
