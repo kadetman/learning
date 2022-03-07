@@ -1,3 +1,3 @@
-import { testMinDepth } from './algorithms_and_data_structures/patterns/tree_breadth_first_search/find_min_depth';
+import { testLevelOrderSuccessor } from './algorithms_and_data_structures/patterns/tree_breadth_first_search/find_level_order_successor';
 
-testMinDepth();
+testLevelOrderSuccessor();
