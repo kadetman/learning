@@ -1,3 +1,3 @@
-import { testSumPathsCount } from './algorithms_and_data_structures/patterns/tree_depth_first_search/count_sum_paths';
+import { testDiameter } from './algorithms_and_data_structures/patterns/tree_depth_first_search/tree_diameter';
 
-testSumPathsCount();
+testDiameter();
