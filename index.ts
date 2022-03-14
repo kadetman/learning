@@ -1,3 +1,3 @@
-import { testMaxSumPath } from './algorithms_and_data_structures/patterns/tree_depth_first_search/path_with_max_sum';
+import { testArrayMedian } from './algorithms_and_data_structures/patterns/two_heaps/array_median';
 
-testMaxSumPath();
+testArrayMedian();
