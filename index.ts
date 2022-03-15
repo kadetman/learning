@@ -1,3 +1,3 @@
-import { testArrayMedian } from './algorithms_and_data_structures/patterns/two_heaps/array_median';
+import { testMedians } from './algorithms_and_data_structures/patterns/two_heaps/sliding_window_median';
 
-testArrayMedian();
+testMedians();
