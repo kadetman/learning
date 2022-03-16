@@ -1,3 +1,3 @@
-import { testMedians } from './algorithms_and_data_structures/patterns/two_heaps/sliding_window_median';
+import { testMaxCapital } from './algorithms_and_data_structures/patterns/two_heaps/maximize_capital';
 
-testMedians();
+testMaxCapital();
