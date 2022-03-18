@@ -1,3 +1,3 @@
-import { testNextIntervals } from './algorithms_and_data_structures/patterns/two_heaps/next_interval';
+import { testSubsets } from './algorithms_and_data_structures/patterns/subsets/subsets';
 
-testNextIntervals();
+testSubsets();
