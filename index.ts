@@ -1,3 +1,3 @@
-import { testBalancedParentheses } from './algorithms_and_data_structures/patterns/subsets/balanced_parentheses';
+import { testAbbreviations } from './algorithms_and_data_structures/patterns/subsets/generalized_abbreviations';
 
-testBalancedParentheses();
+testAbbreviations();
