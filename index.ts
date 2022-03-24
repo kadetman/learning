@@ -1,3 +1,3 @@
-import { testPermutations } from './algorithms_and_data_structures/patterns/subsets/string_case_permutations';
+import { testBalancedParentheses } from './algorithms_and_data_structures/patterns/subsets/balanced_parentheses';
 
-testPermutations();
+testBalancedParentheses();
