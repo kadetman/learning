@@ -1,3 +1,3 @@
-import { testAbbreviations } from './algorithms_and_data_structures/patterns/subsets/generalized_abbreviations';
+import { testExpressions } from './algorithms_and_data_structures/patterns/subsets/evaluate_expression';
 
-testAbbreviations();
+testExpressions();
