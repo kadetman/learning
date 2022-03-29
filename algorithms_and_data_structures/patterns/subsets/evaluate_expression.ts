@@ -2,10 +2,11 @@ import { log } from '../../linked_list/utils';
 
 // https://screenshot.googleplex.com/5ttKLApZjukkN9k
 function evaluateExpression(input: string): number[] {
-  return input ? evaluateInput(input, new Map()) : [];
+  return evaluateInput(input, new Map());
 }
 
 function evaluateInput(input: string, map: Map<string, number[]>): number[] {
+  if (!input) return [];
   if (map.has(input)) return map.get(input);
 
   const result: number[] = [];
