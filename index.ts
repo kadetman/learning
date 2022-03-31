@@ -1,3 +1,3 @@
-import { testCeiling } from './algorithms_and_data_structures/patterns/modified_binary_search/number_ceiling';
+import { testNextLetter } from './algorithms_and_data_structures/patterns/modified_binary_search/next_letter';
 
-testCeiling();
+testNextLetter();
