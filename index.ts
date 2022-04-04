@@ -1,3 +1,3 @@
-import { testNumberRange } from './algorithms_and_data_structures/patterns/modified_binary_search/number_range';
+import { testInfiniteArraySearch } from './algorithms_and_data_structures/patterns/modified_binary_search/infinite_array_search';
 
-testNumberRange();
+testInfiniteArraySearch();
