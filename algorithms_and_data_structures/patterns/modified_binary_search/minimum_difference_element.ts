@@ -7,7 +7,7 @@ function getMinimumDifferenceElement(arr: number[], key: number): number {
   let start = 0,
     end = arr.length - 1;
   if (arr[start] > key) return arr[start];
-  if (arr[end] < key) return arr[en];
+  if (arr[end] < key) return arr[end];
 
   while (start <= end) {
     const mid = Math.floor(start + (end - start) / 2);
