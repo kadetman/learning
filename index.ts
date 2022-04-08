@@ -1,3 +1,3 @@
-import { testMaximum } from './algorithms_and_data_structures/patterns/modified_binary_search/bitonic_array_maximum';
+import { testBitonicArraySearch } from './algorithms_and_data_structures/patterns/modified_binary_search/bitonic_array_search';
 
-testMaximum();
+testBitonicArraySearch();
