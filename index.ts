@@ -1,3 +1,3 @@
-import { testSingleNumbers } from './algorithms_and_data_structures/patterns/bitwise_xor/two_single_numbers';
+import { testNumberComplement } from './algorithms_and_data_structures/patterns/bitwise_xor/number_complement';
 
-testSingleNumbers();
+testNumberComplement();
