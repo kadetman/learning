@@ -28,11 +28,8 @@ export function testFlipAndInvert() {
     [1, 1, 1],
     [0, 1, 1],
   ];
-
-  log(
-    'Expected [[0,1,0],[0,0,0],[0,0,1]], got: ',
-    JSON.stringify(flipAndInvert(matrix))
-  );
+  flipAndInvert(matrix);
+  log('Expected [[0,1,0],[0,0,0],[0,0,1]], got: ', JSON.stringify(matrix));
 
   matrix = [
     [1, 1, 0, 0],
@@ -40,9 +37,9 @@ export function testFlipAndInvert() {
     [0, 1, 1, 1],
     [1, 0, 1, 0],
   ];
-
+  flipAndInvert(matrix);
   log(
     'Expected [[1,1,0,0],[0,1,1,0],[0,0,0,1],[1,0,1,0]], got: ',
-    JSON.stringify(flipAndInvert(matrix))
+    JSON.stringify(matrix)
   );
 }
