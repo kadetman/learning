@@ -1,3 +1,3 @@
-import { testNumberComplement } from './algorithms_and_data_structures/patterns/bitwise_xor/number_complement';
+import { testFlipAndInvert } from './algorithms_and_data_structures/patterns/bitwise_xor/flip_and_invert_image';
 
-testNumberComplement();
+testFlipAndInvert();
