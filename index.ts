@@ -1,3 +1,3 @@
-import { testFlipAndInvert } from './algorithms_and_data_structures/patterns/bitwise_xor/flip_and_invert_image';
+import { testTopNumbers } from './algorithms_and_data_structures/patterns/top_k/top_k_numbers';
 
-testFlipAndInvert();
+testTopNumbers();
