@@ -1,3 +1,3 @@
-import { testTopNumbers } from './algorithms_and_data_structures/patterns/top_k/top_k_numbers';
+import { testSmallestNumber } from './algorithms_and_data_structures/patterns/top_k/smallest_k_number';
 
-testTopNumbers();
+testSmallestNumber();
