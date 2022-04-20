@@ -1,3 +1,3 @@
-import { testSmallestNumber } from './algorithms_and_data_structures/patterns/top_k/smallest_k_number';
+import { testClosestPoints } from './algorithms_and_data_structures/patterns/top_k/closest_k_points';
 
-testSmallestNumber();
+testClosestPoints();
