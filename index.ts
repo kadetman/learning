@@ -1,3 +1,3 @@
-import { testRopes } from './algorithms_and_data_structures/patterns/top_k/connect_ropes';
+import { testTopFrequentNumbers } from './algorithms_and_data_structures/patterns/top_k/top_k_frequent';
 
-testRopes();
+testTopFrequentNumbers();
