@@ -1,3 +1,3 @@
-import { testTopFrequentNumbers } from './algorithms_and_data_structures/patterns/top_k/top_k_frequent';
+import { testFrequencySort } from './algorithms_and_data_structures/patterns/top_k/frequency_sort';
 
-testTopFrequentNumbers();
+testFrequencySort();
