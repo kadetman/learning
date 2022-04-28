@@ -1,3 +1,3 @@
-import { testFrequencySort } from './algorithms_and_data_structures/patterns/top_k/frequency_sort';
+import { testKthLargestNumberInStream } from './algorithms_and_data_structures/patterns/top_k/kth_largest_in_stream';
 
-testFrequencySort();
+testKthLargestNumberInStream();
