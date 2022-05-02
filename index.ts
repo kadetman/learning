@@ -1,3 +1,3 @@
-import { testKthLargestNumberInStream } from './algorithms_and_data_structures/patterns/top_k/kth_largest_in_stream';
+import { testMaxDistinctNumbersCount } from './algorithms_and_data_structures/patterns/top_k/max_distinct_numbers';
 
-testKthLargestNumberInStream();
+testMaxDistinctNumbersCount();
