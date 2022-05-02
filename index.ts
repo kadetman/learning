@@ -1,3 +1,3 @@
-import { testMaxDistinctNumbersCount } from './algorithms_and_data_structures/patterns/top_k/max_distinct_numbers';
+import { testSum } from './algorithms_and_data_structures/patterns/top_k/sum_of_numbers';
 
-testMaxDistinctNumbersCount();
+testSum();
