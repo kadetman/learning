@@ -1,3 +1,3 @@
-import { testRearrangedString } from './algorithms_and_data_structures/patterns/top_k/rearrange_string_k_distance';
+import { testSchedulingTasks } from './algorithms_and_data_structures/patterns/top_k/scheduling_tasks';
 
-testRearrangedString();
+testSchedulingTasks();
