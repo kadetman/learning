@@ -31,8 +31,9 @@ function scheduleTasks(tasks: string[], k: number): string[] {
       maxHeap.push(task);
     }
 
-    while (n) {
+    while (n && maxHeap.length) {
       executionList.push('idle');
+      n--;
     }
   }
 
