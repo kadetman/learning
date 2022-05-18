@@ -1,3 +1,3 @@
-import { testKthSmallest } from './algorithms_and_data_structures/patterns/k_way_merge/kth_smallest_in_m_sorted_arrays';
+import { testSmallestRange } from './algorithms_and_data_structures/patterns/k_way_merge/smallest_number_range';
 
-testKthSmallest();
+testSmallestRange();
