@@ -1,3 +1,3 @@
-import { testSmallestRange } from './algorithms_and_data_structures/patterns/k_way_merge/smallest_number_range';
+import { testPairs } from './algorithms_and_data_structures/patterns/k_way_merge/k_pairs_with_largest_sum';
 
-testSmallestRange();
+testPairs();
