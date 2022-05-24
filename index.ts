@@ -1,3 +1,3 @@
-import { testPairs } from './algorithms_and_data_structures/patterns/k_way_merge/k_pairs_with_largest_sum';
+import { testMaxKnapsackProfit } from './algorithms_and_data_structures/patterns/dynamic_programming/0_1_knapsack';
 
-testPairs();
+testMaxKnapsackProfit();
