@@ -1,3 +1,3 @@
-import { testMaxKnapsackProfit } from './algorithms_and_data_structures/patterns/dynamic_programming/0_1_knapsack';
+import { testPartitioning } from './algorithms_and_data_structures/patterns/dynamic_programming/equal_subset_sum_partition';
 
-testMaxKnapsackProfit();
+testPartitioning();
