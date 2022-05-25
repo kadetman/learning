@@ -17,7 +17,6 @@ function canPartition(nums: number[]): boolean {
   if (nums[0] <= capacity) capacityStates[nums[0]] = true;
 
   for (let i = 1; i < n; i++) {
-    log('capacityStates', capacityStates);
     for (let c = capacity; c >= 0; c--) {
       // Set capacity state to true if previous numbers didn't fit the capacity
       // but they fit it now if we add the current number.
@@ -26,7 +25,6 @@ function canPartition(nums: number[]): boolean {
       }
     }
   }
-  log('capacityStates', capacityStates);
 
   return capacityStates[capacity];
 }
