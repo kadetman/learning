@@ -1,3 +1,3 @@
-import { testSubsetsCount } from './algorithms_and_data_structures/patterns/dynamic_programming/count_subset_sum';
+import { testTargetSumCount } from './algorithms_and_data_structures/patterns/dynamic_programming/target_sum';
 
-testSubsetsCount();
+testTargetSumCount();
