@@ -1,3 +1,3 @@
-import { testTopologicalSort } from './algorithms_and_data_structures/patterns/topological_sort/topological_sort';
+import { testTasksScheduling } from './algorithms_and_data_structures/patterns/topological_sort/tasks_scheduling';
 
-testTopologicalSort();
+testTasksScheduling();
