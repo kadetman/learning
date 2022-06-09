@@ -1,3 +1,3 @@
-import { testCharsOrder } from './algorithms_and_data_structures/patterns/topological_sort/alien_dictionary';
+import { testSequenceReconstruction } from './algorithms_and_data_structures/patterns/topological_sort/reconstructing_sequence';
 
-testCharsOrder();
+testSequenceReconstruction();
