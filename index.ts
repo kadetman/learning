@@ -1,3 +1,3 @@
-import { testSequenceReconstruction } from './algorithms_and_data_structures/patterns/topological_sort/reconstructing_sequence';
+import { testMinHeightTreeRoots } from './algorithms_and_data_structures/patterns/topological_sort/minimum_height_trees';
 
-testSequenceReconstruction();
+testMinHeightTreeRoots();
