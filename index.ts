@@ -1,3 +1,3 @@
-import { testMinHeightTreeRoots } from './algorithms_and_data_structures/patterns/topological_sort/minimum_height_trees';
+import { testBubbleSort } from './algorithms_and_data_structures/sorts/bubble_sort';
 
-testMinHeightTreeRoots();
+testBubbleSort();
