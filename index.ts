@@ -1,3 +1,3 @@
-import { testBubbleSort } from './algorithms_and_data_structures/sorts/bubble_sort';
+import { testInsertionSort } from './algorithms_and_data_structures/sorts/insertion_sort';
 
-testBubbleSort();
+testInsertionSort();
