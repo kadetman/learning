@@ -1,16 +1,15 @@
 import { log } from '../linked_list/utils';
 
 function quickSort(arr: number[], start = 0, end = arr.length - 1): number[] {
-  if (start > end) return [];
-  if (start === end) return [arr[start]];
+  if (start >= end) return arr;
 
   const pivot = partition(arr, start, end);
 
-  return [
-    ...quickSort(arr, start, pivot - 1),
-    arr[pivot],
-    ...quickSort(arr, pivot + 1, end),
-  ];
+  console.log('start', start, 'end', end, 'pivot', pivot);
+  quickSort(arr, start, pivot - 1);
+  quickSort(arr, pivot + 1, end);
+
+  return arr;
 }
 
 function partition(arr: number[], start: number, end: number): number {
@@ -36,5 +35,5 @@ function partition(arr: number[], start: number, end: number): number {
 
 export function testQuickSort() {
   log('Expected [0, 1, 2, 3, 4], got: ', quickSort([4, 3, 2, 1, 0]));
-  log('Expected [0, 1, 2, 3, 4, 5], got: ', quickSort([5, 4, 3, 2, 1, 0]));
+  // log('Expected [0, 1, 2, 3, 4, 5], got: ', quickSort([5, 4, 3, 2, 1, 0]));
 }
