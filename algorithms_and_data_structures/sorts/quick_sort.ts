@@ -14,7 +14,8 @@ function quickSort(arr: number[], start = 0, end = arr.length - 1): number[] {
 }
 
 function partition(arr: number[], start: number, end: number): number {
-  const pivot = arr[end];
+  const pivotIndex = end;
+  const pivot = arr[pivotIndex];
   end--;
 
   while (start < end) {
@@ -28,7 +29,7 @@ function partition(arr: number[], start: number, end: number): number {
     }
   }
 
-  arr[start] = pivot;
+  [arr[pivotIndex], arr[start]] = [arr[start], arr[pivotIndex]];
 
   return start;
 }
