@@ -12,17 +12,15 @@ function quickSort(arr: number[], start = 0, end = arr.length - 1): number[] {
 }
 
 function partition(arr, start, end) {
-  const pivotIndex = end;
+  const pivotIndex = Math.floor(Math.random() * (end - start + 1)) + start;
   const pivot = arr[pivotIndex];
 
   while (start < end) {
-    while (start < end && arr[start] < pivot) start++;
-    while (end > start && arr[end] >= pivot) end--;
+    while (arr[start] < pivot) start++;
+    while (arr[end] > pivot) end--;
 
     [arr[start], arr[end]] = [arr[end], arr[start]];
   }
-
-  [arr[pivotIndex], arr[start]] = [arr[start], arr[pivotIndex]];
 
   return start;
 }
