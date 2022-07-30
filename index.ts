@@ -1,3 +1,3 @@
-import { testSelectionSort } from './algorithms_and_data_structures/sorts/selection_sort';
+import { testCountingSort } from './algorithms_and_data_structures/sorts/counting_sort';
 
-testSelectionSort();
+testCountingSort();
