@@ -1,3 +1,3 @@
-import { testMergeSort } from './algorithms_and_data_structures/sorts/merge_sort';
+import { testQuickSort } from './algorithms_and_data_structures/sorts/quick_sort';
 
-testMergeSort();
+testQuickSort();
