@@ -1,3 +1,3 @@
-import { testCountingSort } from './algorithms_and_data_structures/sorts/counting_sort';
+import { testRadixSort } from './algorithms_and_data_structures/sorts/radix_sort';
 
-testCountingSort();
+testRadixSort();
