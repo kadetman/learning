@@ -1,3 +1,3 @@
-import { testRadixSort } from './algorithms_and_data_structures/sorts/radix_sort';
+import { testHeapSort } from './algorithms_and_data_structures/sorts/heap_sort';
 
-testRadixSort();
+testHeapSort();
